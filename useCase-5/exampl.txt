@@ -1,1 +1,7 @@
-これはサンプルテキストです。
+ユースケース再現
+①このブランチにチェックアウト
+②git logでdevelopに反映したいcommitを見つける。
+③git checkout develop
+④git cherry-pick ②で特定したコミットID
+⑤git push origin develop
+⑥ステージング環境であれば⑤で反映したコミット
